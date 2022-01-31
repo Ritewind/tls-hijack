@@ -10,7 +10,7 @@ const ip = require("./ip");
 app.use(cors());
 
 // Use the port available else use Port 3000
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 // Middleware to rocignize incoming request objects as JSON object
 app.use(express.json());
