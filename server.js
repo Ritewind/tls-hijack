@@ -1,5 +1,3 @@
-const { Server } = require("got-tls");
-Server.connect();
 // Importing express
 const express = require("express");
 // Importing cors

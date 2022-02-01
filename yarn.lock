@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/node@^15.0.2":
+  version "15.14.9"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.14.9.tgz#bc43c990c3c9be7281868bbc7b8fdd6e2b57adfa"
+  integrity sha512-qjd88DrCxupx/kJD5yQgZdcYKZKSIGBVDIBE1/LTGcNm3d2Np/jxojkdePDdfnBHJc5W7vSMpbJ1aB7p/Py69A==
+
 "@types/tough-cookie@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-4.0.1.tgz#8f80dd965ad81f3e1bc26d6f5c727e132721ff40"
@@ -82,6 +87,14 @@ cors@^2.8.5:
   dependencies:
     object-assign "^4"
     vary "^1"
+
+cycletls@^0.0.15-alpha.0:
+  version "0.0.15-alpha.0"
+  resolved "https://registry.yarnpkg.com/cycletls/-/cycletls-0.0.15-alpha.0.tgz#321c99cbd0ac30af3d2fae0302e340d8c706696a"
+  integrity sha512-qSKT5mViSD8j6vfStKfOwwoFNy3MkeOBNoOCWhCXxF82aAmzAT6JjbVzE76H1sOp3IPzyLICeaaKzbdGP/sRfQ==
+  dependencies:
+    "@types/node" "^15.0.2"
+    ws "^7.3.1"
 
 d@1, d@^1.0.1:
   version "1.0.1"
@@ -538,6 +551,11 @@ websocket@^1.0.34:
     typedarray-to-buffer "^3.1.5"
     utf-8-validate "^5.0.2"
     yaeti "^0.0.6"
+
+ws@^7.3.1:
+  version "7.5.6"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.5.6.tgz#e59fc509fb15ddfb65487ee9765c5a51dec5fe7b"
+  integrity sha512-6GLgCqo2cy2A2rjCNFlxQS6ZljG/coZfZXclldI8FB/1G3CCI36Zd8xy2HrFVACi8tfk5XrgLQEk+P0Tnz9UcA==
 
 yaeti@^0.0.6:
   version "0.0.6"
